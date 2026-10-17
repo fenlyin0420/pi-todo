@@ -29,3 +29,8 @@ thoughts/
 # Package specific
 coverage/
 .nyc_output/
+
+# Lockfile intentionally untracked: pi's git install runs `npm install --omit=dev`,
+# a dev `npm install` rewrites the same file differently - tracking it makes every
+# pi update land on a dirty working tree. See FORK.md.
+package-lock.json
