@@ -1,10 +1,11 @@
-# @juicesharp/rpiv-todo (personal fork)
+# pi-todo
 
+[![npm](https://img.shields.io/npm/v/@fenlyin/pi-todo)](https://www.npmjs.com/package/@fenlyin/pi-todo)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> Personal fork of [`juicesharp/rpiv-mono` → `packages/rpiv-todo`](https://github.com/juicesharp/rpiv-mono/tree/main/packages/rpiv-todo),
+> Derived from [`juicesharp/rpiv-mono` → `packages/rpiv-todo`](https://github.com/juicesharp/rpiv-mono/tree/main/packages/rpiv-todo),
 > extracted into a standalone package so it can be installed and developed on its own.
-> Everything upstream ships is here; on top of it this fork recites the open task
+> Everything upstream ships is here; on top of it this package recites the open task
 > list back into the model request. See [FORK.md](FORK.md) for what differs and how
 > it syncs with upstream.
 
@@ -24,12 +25,11 @@ on long research → design → implement sessions.
 ## Install
 
 ```sh
-pi install git:github.com/fenlyin0420/pi-todo
+pi install npm:@fenlyin/pi-todo
 ```
 
-Restart your Pi session. Pi clones the repo under
-`~/.pi/agent/git/github.com/fenlyin0420/pi-todo` and installs its runtime
-dependencies (`@juicesharp/rpiv-config`).
+Restart your Pi session. Pi installs the package under `~/.pi/agent/npm` together
+with its runtime dependencies (`@juicesharp/rpiv-config`).
 
 ## Quick start
 

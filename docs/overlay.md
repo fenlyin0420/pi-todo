@@ -1,7 +1,7 @@
 # Overlay and `/todos` display
 
 How
-[`@juicesharp/rpiv-todo`](https://www.npmjs.com/package/@juicesharp/rpiv-todo)
+[`@fenlyin/pi-todo`](https://www.npmjs.com/package/@fenlyin/pi-todo)
 renders the task list — when the overlay appears, what each glyph means, how
 overflow is trimmed, and which strings localize.
 

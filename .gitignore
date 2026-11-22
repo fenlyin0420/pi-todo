@@ -34,3 +34,5 @@ coverage/
 # a dev `npm install` rewrites the same file differently - tracking it makes every
 # pi update land on a dirty working tree. See FORK.md.
 package-lock.json
+.agents/
+*.tgz

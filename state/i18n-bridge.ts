@@ -3,7 +3,7 @@
  * routes through one module. Backed by `@juicesharp/rpiv-i18n`'s SDK when
  * available; degrades to canonical-English fallbacks when not.
  *
- * - `t(key, fallback)` is `scope("@juicesharp/rpiv-todo")` if the SDK is
+ * - `t(key, fallback)` is `scope("@fenlyin/pi-todo")` if the SDK is
  *   installed (live `/languages` updates propagate). If the SDK is missing
  *   (standalone install without rpiv-i18n), `t` is an identity passthrough
  *   that returns the inline English fallback at every call site, so the
@@ -21,7 +21,7 @@
 
 import type { TaskStatus } from "../tool/types.ts";
 
-export const I18N_NAMESPACE = "@juicesharp/rpiv-todo";
+export const I18N_NAMESPACE = "@fenlyin/pi-todo";
 
 type ScopeFn = (key: string, fallback: string) => string;
 type I18nSDK = { scope: (namespace: string) => ScopeFn };

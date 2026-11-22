@@ -4,11 +4,10 @@
 `packages/rpiv-todo` 独立出来的个人 fork：上游仍在那边的 monorepo 里开发同一个包，
 本仓库只承载「我的定制 + 便于单独安装/单独发版」。
 
-包名沿用上游的 `@juicesharp/rpiv-todo`：pi 对 git 源用**仓库 URL** 认身份，
-同名不会与 npm 上的包串味，也让测试、`files` 清单、文档链接保持零改动。
+包名是 `@fenlyin/pi-todo`（发布在 npm，也装得下 git 源）；上游仍用 `@juicesharp/rpiv-todo`，两边互不影响。
 
 - `origin` = 本仓库（唯一 push 目标）。
-- 上游参照物仍留在 `D:/GitHub/rpiv-mono/packages/rpiv-todo`（只读对照，不再从那里安装）。
+- 上游参照物仍留在 `path/to/rpiv-mono/packages/rpiv-todo`（只读对照，不再从那里安装）。
 
 ## 本机安装方式
 
@@ -38,7 +37,7 @@ pi-computer-use 等仓库同一套流程），改完 push，再 `pi update --ext
 ## 同步上游
 
 ```powershell
-cd D:\GitHub\rpiv-mono
+cd path/to/rpiv-mono
 git fetch upstream
 git log --oneline main..upstream/main -- packages/rpiv-todo   # 先看上游动了什么
 

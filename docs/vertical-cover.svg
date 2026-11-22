@@ -163,7 +163,7 @@
 
   <line x1="40" y1="1144" x2="500" y2="1144" class="rule" stroke-width="1"/>
   <text class="mono muted" x="40" y="1168" font-size="9.5" letter-spacing="1.8">
-    <tspan class="accent">&#9654;</tspan>  pi install npm:@juicesharp/rpiv-todo
+    <tspan class="accent">&#9654;</tspan>  pi install npm:@fenlyin/pi-todo
   </text>
   <text class="mono muted" x="500" y="1168" font-size="9" letter-spacing="2" text-anchor="end">PERSISTENT</text>
 </svg>

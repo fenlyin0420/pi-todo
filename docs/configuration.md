@@ -1,7 +1,7 @@
 # Configuration reference
 
 Every option
-[`@juicesharp/rpiv-todo`](https://www.npmjs.com/package/@juicesharp/rpiv-todo)
+[`@fenlyin/pi-todo`](https://www.npmjs.com/package/@fenlyin/pi-todo)
 reads, where the file lives, and exactly what happens when a value is wrong.
 
 ## Where the file lives

@@ -41,6 +41,6 @@ describe("i18n-bridge", () => {
 	});
 
 	it("namespace constant is the canonical package name", () => {
-		expect(I18N_NAMESPACE).toBe("@juicesharp/rpiv-todo");
+		expect(I18N_NAMESPACE).toBe("@fenlyin/pi-todo");
 	});
 });
